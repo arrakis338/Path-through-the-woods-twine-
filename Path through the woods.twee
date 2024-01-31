@@ -1,0 +1,153 @@
+:: StoryTitle
+Path through the woods
+
+
+:: StoryData
+{
+  "ifid": "EDE76153-8FD8-4B22-AC30-C4C86466B95B",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Email",
+  "zoom": 0.6
+}
+
+
+:: Activity related {"position":"200,400","size":"100,100"}
+Can you identify the type of expenditure variance? Is it..
+
+[[Divisional Income]]
+[[Non Pay Expenditure]]
+[[Pay expenditure]]
+
+
+:: Divisional Income {"position":"200,600","size":"100,100"}
+Income ...
+
+
+:: Email {"position":"1000,0","size":"100,100"}
+Ding!
+
+An email has just come in from finance with an attachment. Do you open it?
+
+[[Yes]]
+[[No]]
+
+
+:: Income - more infromation required {"position":"700,725","size":"100,100"}
+income - more info...
+
+
+:: No {"position":"1250,75","size":"100,100"}
+OK - we wont take offence :-)
+
+Do you have a meeting with finance in the next couple of days?
+
+[[Yes, I have a meeting within 2 days]]
+[[Nope, The meeting is a bit futher away]]
+
+
+:: No, I need more information {"position":"700,350","size":"100,100"}
+Can you identify the type of expenditure causing the variance? Clue:-Have a look at the subtotals for each category.
+
+[[Pay -more information required]]
+[[Non Pay - more information required]]
+[[Income - more infromation required]]
+
+
+
+:: No, Not today {"position":"2000,300","size":"100,100"}
+Do not worry we will go through this with you in your next finance meeting.
+
+
+:: Non Pay - more information required {"position":"825,600","size":"100,100"}
+non pay - more info...
+
+
+
+:: Non Pay Expenditure {"position":"350,500","size":"100,100"}
+Non Pay...
+
+
+:: Nope, The meeting is a bit futher away {"position":"1700,100","size":"100,100"}
+An initial review can take 5 mins of your time. 
+
+When you finish your current task, why not make a brew and open the file and have a look at your position.
+
+[[OK I can find 5 mins]] 
+
+
+:: Not today {"position":"1800,250","size":"100,100"}
+An initial review can take 5 mins of your time. 
+
+When you finish your current task, why not make a brew and open the file and have a look at your position.
+
+[[OK I can find 5 mins]] 
+
+[[No, Not today]] 
+
+
+:: OK I can find 5 mins {"position":"1800,400","size":"100,100"}
+Do you open the email?
+
+[[Yes]]
+[[No, Not today]]
+
+
+:: Pay -more information required {"position":"825,475","size":"100,100"}
+Pay more info...
+
+
+:: Pay expenditure {"position":"50,500","size":"100,100"}
+Pay...
+
+
+:: Purchase price related {"position":"600,500","size":"100,100"}
+How have the prices changed?
+
+
+:: Reminder set {"position":"1500,325","size":"100,100"}
+Your reminder has gone off, do you open the email?
+
+[[Yes]] 
+
+
+[[No]] 
+
+
+:: Variance is negative {"position":"900,200","size":"100,100"}
+This means you are underspent overall against your budget. Do you know why you are underspent?
+
+[[Yes, I know why]]
+[[No, I need more information]]
+
+
+:: Variance is positive {"position":"300,200","size":"100,100"}
+This means you are overspent overall against your budget. Do you know why you are overspent?
+
+[[Yes, I know why]]
+[[No, I need more information]]
+
+
+:: Yes {"position":"600,100","size":"100,100"}
+Good job - 5 points for Gryffindor
+
+Find the budget statement - on the bottom right corner of the figures there is year to date variance.
+
+[[Variance is positive]]
+[[Variance is negative]]
+
+
+:: Yes, I have a meeting within 2 days {"position":"1500,200","size":"100,100"}
+Set a reminder in your calendar to come back to this in 3 hours.
+
+[[Reminder set]] 
+[[Not today]]
+
+
+:: Yes, I know why {"position":"500,350","size":"100,100"}
+Yes I know why. Is it..?
+
+[[Activity related]]
+
+[[Purchase price related]]
+
